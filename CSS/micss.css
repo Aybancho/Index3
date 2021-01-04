@@ -1,0 +1,104 @@
+
+body{
+	background:url(../imagenes/tesla.jpg) no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+#gradia{
+	background:-webkit-radial-gradient(circle,rgb(3, 182, 33),rgb(177, 0, 177),rgb(53, 3, 87));
+	background:-o-radial-gradient(circle,red,yellow,green);
+	background:-moz-radial-gradient(circle,red,yellow,green);
+	background:radial-gradient(circle,red,yellow,green);
+	-webkit-transition:transform 1s ease-in;
+	-moz-transition:transform 1s ease-in;
+	-o-transition:transform 1s ease-in;
+}
+#gradia:hover{
+	-webkit-transform:rotate(720deg);
+	-moz-transform:rotate(720deg);
+	-o-transform:rotate(720deg);
+	-ms-transform:rotate(720deg);
+}
+
+.lugar{
+	height:500px;
+	width:1000px;
+	position:relative;
+	top:160px;
+	left:90px;
+	opacity:.7;
+}
+
+
+.divTrans{
+	width:50px;
+	height:300px;
+	float:left;
+	margin-right:5em;
+	border:3px solid;
+	opacity:.7;
+}
+
+#t1{
+	float: right;;
+	background-color:rgb(81, 22, 175);
+	-webkit-transform:rotate(90deg);
+	-moz-transform:rotate(90deg);
+	-o-transform:rotate(90deg);
+	-ms-transform:rotate(90deg);
+	-webkit-transition:color 1s ease-in;
+	-moz-transition:color 1s ease-in;
+	-o-transition: color 1s ease-in;
+}
+#t1:hover{
+	color:rgb(140, 194, 16);
+}
+
+#t2{
+	float:left;
+	background-color:rgb(194, 7, 178);
+	-webkit-transform:scale(2)translatey(150px);
+	-moz-transform:scale(2)translatey(150px);
+	-o-transform:scale(2)translatey(150px);
+	-ms-transform:scale(2)translatey(150px);
+	-webkit-transition:color 1s ease-in;
+	-moz-transition:color 1s ease-in;
+	-o-transition: color 1s ease-in;
+}
+#t2:hover{
+	color:rgb(11, 153, 30);
+}
+
+
+#t3{
+	float:left;
+	background-color:rgb(214, 100, 7);
+	-webkit-transform:skew(50deg);
+	-moz-transform:skew(50deg);
+	-o-transform:skew(50deg);
+	-ms-transform:skew(50deg);
+	-webkit-transition:color 1s ease-in;
+	-moz-transition:color 1s ease-in;
+	-o-transition: color 1s ease-in;
+}
+#t3:hover{
+	color:rgb(10, 163, 235);
+}
+
+#t4{
+	float:left;
+	background-color:rgb(4, 20, 112);
+	-webkit-transform:translate(60px,100px);
+	-moz-transform:translate(60px,100px);
+	-o-transform:translate(60px,100px);
+	-ms-transform:translate(60px,100px);
+	-webkit-transition:color 1s ease-in;
+	-moz-transition:color 1s ease-in;
+	-o-transition: color 1s ease-in;
+}
+#t4:hover{
+	color:rgb(70, 206, 240);
+}

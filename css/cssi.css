@@ -1,0 +1,73 @@
+@charset "utf-8";
+header
+{
+font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif; 
+position: absolute;
+margin: 30px;
+color: lightslategray;
+left: 40%;
+}
+body
+{
+background-image: url(/Users/HP/Desktop/fondo2.jpg);
+background-color: #cccccc;
+
+}
+#p{
+
+    position: absolute;
+    margin-top: 10px;
+    top: 30%;
+    background-color: blueviolet;
+}
+a
+{
+text-decoration:none;
+padding-right:15px;
+color: black;
+font-family: cursive;
+text-align: center;
+}
+nav
+{
+position:absolute;
+margin:20px;
+left:65%;
+
+}
+#primero
+{
+position:absolute;
+top:30%;
+left: 35%;
+}
+.nombre
+{
+font-size:19px
+}
+.nom2
+{ 
+font-size:16px
+}
+#imagen
+{
+width:400px;
+height:400px;
+position:absolute;
+left:10%;
+}
+#segundo
+{ 
+position:absolute;
+top:115%
+}
+#imagen2
+{
+width:430px;
+height:340px;
+}
+
+.lista
+{
+list-style-type:none;
+}

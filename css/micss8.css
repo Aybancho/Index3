@@ -1,0 +1,33 @@
+@charset "utf-8";
+/* CSS Document */
+
+body{
+background-color:#666666;
+}
+#primera {
+	display:block;
+	margin:auto;
+	height: 500px;
+	width: 500px;
+	padding: 10px;
+	-moz-border-radius: 20px 20px 20px 20px;
+	-webkit-border radius: 20px 20px 20px 20px;
+	border-radius: 20px 20px 20px 20px;
+}
+
+.size {
+	font-size: 24px;
+}
+#imagenes{
+	width:220px;
+	height:150px;
+}
+.size {
+	font-weight: bold;
+}
+.texto {
+	color: #FFF;
+}
+.texto1 {
+	color: #0FF;
+}

@@ -1,0 +1,19 @@
+header{font-family: Georgia, 'Times New Roman', Times, serif;
+    color:#F96}
+    body{background-color: yellowgreen;
+    font-family: monospace;}
+    #message{ position: absolute;
+    top:0%;
+    left:22%;
+    }
+    #envia{position:absolute;
+    left:22%;
+    top:28%;}
+    #enviar{ background: violet;}
+    p{ margin:35px}
+    #datos{
+    border-style: dashed;
+    width:650px;
+    height:260px;
+    }
+    span{color:#F00;}

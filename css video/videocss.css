@@ -1,0 +1,42 @@
+video{
+    
+    width: 50%;
+    margin-top: 100px;
+    margin-left: 380px;
+    
+   
+}
+header
+{
+font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif; 
+position: absolute;
+margin: 30px;
+color: lightslategray;
+left: 40%;
+}
+body
+{
+background-image: url(/Users/HP/Desktop/fondo2.jpg);
+background-color: #cccccc;
+
+}
+nav
+{
+position:absolute;
+margin:20px;
+left:45%;
+
+}
+
+.lista
+{
+list-style-type:none;
+}
+
+a
+{
+text-decoration:none;
+padding-right:15px;
+color: black;
+font-family: cursive;
+}

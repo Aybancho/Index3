@@ -1,0 +1,33 @@
+body
+{
+background-image: url(/Users/HP/Desktop/fondo2.jpg);
+background-color: #cccccc;
+
+}
+nav
+{
+position:absolute;
+margin:20px;
+left:45%;
+
+}
+.con
+{
+position: absolute;
+margin-top: 8%;
+left: 38%;
+}
+
+p{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 5ch;
+
+}
+
+a
+{
+text-decoration:none;
+padding-right:15px;
+color: black;
+font-family: cursive;
+}

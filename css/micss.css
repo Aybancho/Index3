@@ -1,0 +1,48 @@
+@charset "utf-8";
+/* CSS Document */
+
+.primero{
+	text-align:center;
+    background-color:#F00;
+    font-style: italic;
+	position:relative;
+	width:auto;
+	height:150px;
+	border-radius: 20px 20px 20px 20px;
+}
+.segundo{
+    background-color:#0FF;
+    font-style: italic;
+	height:340px;;
+	width:450px;;
+	position:static;
+	border-radius: 20px 20px 20px 20px;
+}
+.tercero{
+	text-align:center;
+    background-color:#FF0;
+    font-style: italic;
+	height:340px;
+	width:450px;
+	position:absolute;
+  	left: 33.5%;
+ 	top: 24%;
+}
+.cuarto{
+    background-color:#00F;
+    font-style: italic;
+	height:340px;;
+	width:450px;;
+	position:absolute;
+	border-radius: 20px 20px 20px 20px;
+	left:66.5%;
+	top:24%;
+}
+.quinto{
+    background-color:#60F;
+    font-style: italic;
+	height:150px;;
+	width:auto;;
+	position:static;
+	border-radius: 20px 20px 20px 20px;
+}
