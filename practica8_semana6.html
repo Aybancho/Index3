@@ -1,0 +1,88 @@
+<!DOCTYPE HTML>
+<html>
+
+<head>
+    <link rel='icon' href="imagenes/consulta2.ico" />
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <title>Servicios</title>
+    <script type="text/javascript">
+        function MM_swapImgRestore() { //v3.0
+            var i, x, a = document.MM_sr; for (i = 0; a && i < a.length && (x = a[i]) && x.oSrc; i++) x.src = x.oSrc;
+        }
+        function MM_preloadImages() { //v3.0
+            var d = document; if (d.images) {
+                if (!d.MM_p) d.MM_p = new Array();
+                var i, j = d.MM_p.length, a = MM_preloadImages.arguments; for (i = 0; i < a.length; i++)
+                    if (a[i].indexOf("#") != 0) { d.MM_p[j] = new Image; d.MM_p[j++].src = a[i]; }
+            }
+        }
+
+        function MM_findObj(n, d) { //v4.01
+            var p, i, x; if (!d) d = document; if ((p = n.indexOf("?")) > 0 && parent.frames.length) {
+                d = parent.frames[n.substring(p + 1)].document; n = n.substring(0, p);
+            }
+            if (!(x = d[n]) && d.all) x = d.all[n]; for (i = 0; !x && i < d.forms.length; i++) x = d.forms[i][n];
+            for (i = 0; !x && d.layers && i < d.layers.length; i++) x = MM_findObj(n, d.layers[i].document);
+            if (!x && d.getElementById) x = d.getElementById(n); return x;
+        }
+
+        function MM_swapImage() { //v3.0
+            var i, j = 0, x, a = MM_swapImage.arguments; document.MM_sr = new Array; for (i = 0; i < (a.length - 2); i += 3)
+                if ((x = MM_findObj(a[i])) != null) { document.MM_sr[j++] = x; if (!x.oSrc) x.oSrc = x.src; x.src = a[i + 2]; }
+        }
+    </script>
+    <link href="CSS/micss8.css" rel="stylesheet" type="text/css">
+</head>
+
+<body
+    onLoad="MM_preloadImages('imagenes/b1.png','imagenes/b2.png','imagenes/b3.png','imagenes/b4.png','imagenes/b5.png')">
+    <table width="1200" border="0" align="center" cellpadding="0" cellspacing="0">
+        <tr>
+            <td colspan="6"><img src="imagenes/Semana4_Actividad1.fw.png" width="1200" height="300"></td>
+        </tr>
+        <tr>
+            <td><a href="#" onMouseOut="MM_swapImgRestore()"
+                    onMouseOver="MM_swapImage('inicio','','imagenes/b1.png',1)"><img
+                        src="imagenes/b1.png" name="Inicio" width="200" height="90" border="0"></a></td>
+            <td><a href="#" onMouseOut="MM_swapImgRestore()"
+                    onMouseOver="MM_swapImage('NuestrosDoctores','','imagenes/b2.png',1)"><img
+                        src="imagenes/b2.png" name="NuestrosDoctores" width="200" height="90"
+                        border="0"></a></td>
+            <td><a href="#" onMouseOut="MM_swapImgRestore()"
+            onMouseOver="MM_swapImage('NuestrosServicios','','imagenes/b3.png',1)"><img
+                        src="imagenes/b3.png" name="NuestrosServicios" width="200" height="90"    border="0"></a></td>
+            <td><a href="#" onMouseOut="MM_swapImgRestore()"
+                    onMouseOver="MM_swapImage('TipsSMascotas','','imagenes/b4.png',0)"><img
+    src="imagenes/b4.png" name="TipsSMascotas" width="200" height="90"
+                        border="0"></a></td>
+            <td><a href="#" onMouseOut="MM_swapImgRestore()"
+                    onMouseOver="MM_swapImage('AcercaDe','','Imagenes/b5.png',1)"><img
+                        src="imagenes/b5.png" name="AcercaDe" width="200" height="90"
+                        border="0"></a></td>
+            <td><a href="#" onMouseOut="MM_swapImgRestore()"
+                    onMouseOver="MM_swapImage('Contactanos','','imagenes/b6.png',1)"><img
+                        src="imagenes/b6.png" name="Contactanos" width="200" height="90" border="0"></a>
+            </td>
+        </tr>
+        <tr>
+            <td colspan="6"> <img src="Imagenes/servicio_banner.png" id="primera">
+                &nbsp; </td>
+        </tr>
+        <tr>
+            <td colspan="6"><span class="texto"><span class="size"><span class="size">Aqui puedes ver algunos de nuestros
+                            servicios en</span></span></span><span class="size"><span class="size"><span class="texto1">
+                            My Pets,</span> estamos ansiosos de poderte ayudar no dudes en llamarnos, somos tu mejor
+                        opcion.</span></span><span class="size"></span></td>
+        </tr>
+        <tr>
+            <td colspan="6">
+                <marquee onmouseover="stop()" onmouseout="start()" scrollamount="10" scrolldelay="50"><img
+                        src="imagenes/consulta1.jpg" id="imagenes"><img src="imagenes/consulta2.jpg" id="imagenes"><img
+                        src="imagenes/consulta3.jpg" id="imagenes"><img src="imagenes/consulta4.jpg" id="imagenes">
+                </marquee>
+            </td>
+        </tr>
+    </table>
+</body>
+
+</html>
