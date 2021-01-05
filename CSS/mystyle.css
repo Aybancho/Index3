@@ -1,0 +1,29 @@
+body{
+    background-color: #666666;
+}
+
+.p{
+
+background-color: #cccccc;
+  
+
+}
+
+.p7{
+
+  background-color: #cccccc;
+    float: right;
+  
+  }
+  
+
+.p2{
+  
+  background-color: #66cccc;
+  text-align: center;
+}
+
+c.img{
+  border-image-source: url("astro.jpg");
+  border-image-slice: 27;
+}
